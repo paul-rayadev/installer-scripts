@@ -1,10 +1,4 @@
-echo "setting up frappe bench user"
-sudo adduser $1
-usermod -aG sudo $1
-su $1
-cd /home/$1/
-
-
+echo "updating..."
 sudo apt-get update -y
 sudo apt-get upgrade -y
 
